@@ -6,6 +6,8 @@ body{
     margin-right: auto;
     font-family: 'Poppins', sans-serif;
     background-image: url(../img/sfondo.png);
+    /* letter-spacing: 3px;
+    word-spacing: 9px;   */
 }
 /* HEADER */
 header{
