@@ -82,6 +82,9 @@ th{
     font-size: 20px;
     background-color:#4875d7;
 }
+tr:nth-child(odd){
+    background-color: lightgray;
+}
 td{
     padding: 5px;
 }
