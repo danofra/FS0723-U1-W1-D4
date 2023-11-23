@@ -1,0 +1,131 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+body{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/sfondo.png);
+}
+/* HEADER */
+header{
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(10,118,136,255);
+    box-shadow: 0px 6px 4px rgba(0,0,0,0.5);
+}
+#header-par {
+    font-size: 1.4em;
+    color: white;
+}
+#nav{
+    text-decoration: none;
+    color: white;
+}
+#nav li{
+    list-style-type: none;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+/* MAIN */
+main{
+    background-color: white;
+    box-shadow: 0px 6px 4px rgba(0,0,0,0.5);
+    padding: 50px;
+    margin-top: 40px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1 {
+    font-size: 2em;
+
+}
+.article-par{
+    font-size: 1.1em;
+    color: rgba(152,170,153,255);
+}
+.str{
+color: fuchsia;
+}
+.span{
+    padding: 1px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    background-color: rgba(207, 207, 207, 0.345);
+}
+iframe{
+    width:400px;
+    height: 200px;
+    border-radius:50px;
+}
+/* TABELLE */
+table { 
+    text-align: center;
+    border: 1px solid white;
+    border-bottom: 2px solid #4875d7;
+}
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: black;
+    
+}
+th{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    background-color:#4875d7;
+}
+td{
+    padding: 5px;
+}
+
+/* FORM */
+#form{
+    margin-top: 40px;
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+    padding: 10px;
+    font-size: 1.25em;
+}
+#email{
+    border: 0px;
+    padding: 5px;
+    border-bottom: 1px dashed black;
+}
+#btn{
+    border: 0px;
+    padding: 5px;
+    background-color: #4875d7;
+    color: white;
+    font-weight: bold;
+}
+/* ELEMENTI NELL' ASIDE */
+.post-cor{
+    background-color: rgb(187, 187, 187);
+    border: 1px solid gray;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 1.2em;
+}
+.date{
+    text-align: right;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgba(10,118,136,255);
+    box-shadow: 0px 6px 4px rgba(0,0,0,0.5);
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+footer a {
+    color: fuchsia;
+}
