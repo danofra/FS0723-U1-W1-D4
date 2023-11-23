@@ -6,28 +6,29 @@ body{
     margin-right: auto;
     font-family: 'Poppins', sans-serif;
     background-image: url(../img/sfondo.png);
-    /* letter-spacing: 3px;
-    word-spacing: 9px;   */
+    background-size: 600px;
+    background-repeat: repeat-y;
+    background-position: center;
 }
 /* HEADER */
 header{
     text-align: center;
     padding: 50px;
-    background-color: rgba(10,118,136,255);
+    background-image: linear-gradient(160deg,#009bbf,#065268);
     box-shadow: 0px 6px 4px rgba(0,0,0,0.5);
+    line-height: 1.5em;
 }
 #header-par {
     font-size: 1.4em;
     color: white;
 }
 #nav{
-    text-decoration: none;
-    color: white;
-}
-#nav li{
     list-style-type: none;
     font-size: 1.2em;
-    font-weight: bold;
+    font-weight: bold; 
+}
+#nav li a{
+    color: white;
   }
 
 /* MAIN */
@@ -36,12 +37,25 @@ main{
     box-shadow: 0px 6px 4px rgba(0,0,0,0.5);
     padding: 50px;
     margin-top: 40px;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+    /* line-height : 1.5em; */
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 h1 {
     font-size: 2em;
+    margin-bottom: 1.5em;
 
+}
+h2{
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    margin-bottom: 1.5em;
 }
 .article-par{
     font-size: 1.1em;
@@ -50,22 +64,34 @@ h1 {
 .str{
 color: fuchsia;
 }
-.span{
-    padding: 1px;
-    border: 1px solid gray;
+code{
     border-radius: 7px;
-    background-color: rgba(207, 207, 207, 0.345);
+    border: 1px solid gray;
+    background-color: rgba(245, 245, 245);
+    padding: 1px;
 }
 iframe{
     width:400px;
     height: 200px;
     border-radius:50px;
 }
+ol{
+    list-style-type: style;
+    padding-left: 1.5em; 
+    line-height: 2em;
+}
+ul{
+    list-style-type: disc;
+    padding-left: 1.5em; 
+    line-height: 2em;
+}
 /* TABELLE */
 table { 
+    width: 100%;
     text-align: center;
     border: 1px solid white;
     border-bottom: 2px solid #4875d7;
+    margin-bottom: 1.5em;
 }
 caption{
     font-size: 1.5em;
@@ -86,6 +112,7 @@ tr:nth-child(odd){
     background-color: lightgray;
 }
 td{
+    width: 150px;
     padding: 5px;
 }
 
@@ -120,16 +147,16 @@ td{
 .date{
     text-align: right;
 }
-
 /* FOOTER */
 footer{
-    background-color: rgba(10,118,136,255);
+    background-color: #065268;
     box-shadow: 0px 6px 4px rgba(0,0,0,0.5);
     margin-top: 30px;
     padding: 20px;
     font-size: 1.2em;
     color: white;
     text-align: center;
+    line-height: 1.5em;
 }
 footer a {
     color: fuchsia;
